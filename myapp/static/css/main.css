@@ -1,0 +1,73 @@
+* {
+	font-family: "Arial", sans-serif;
+	font-size: 100%;
+}
+
+header {
+	width: 90%;
+	height: 4em;
+	margin: 5%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: .25%;
+	background: #4c4c4c;
+	background: -moz-linear-gradient(left, #4c4c4c 0%, #111111 0%, #000000 0%, #2c2c2c 1%, #474747 6%, #595959 12%, #666666 25%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #4c4c4c), color-stop(0%, #111111), color-stop(0%, #000000), color-stop(1%, #2c2c2c), color-stop(6%, #474747), color-stop(12%, #595959), color-stop(25%, #666666), color-stop(76%, #2b2b2b), color-stop(91%, #1c1c1c), color-stop(100%, #131313));
+	background: -webkit-linear-gradient(left, #4c4c4c 0%, #111111 0%, #000000 0%, #2c2c2c 1%, #474747 6%, #595959 12%, #666666 25%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+	background: -o-linear-gradient(left, #4c4c4c 0%, #111111 0%, #000000 0%, #2c2c2c 1%, #474747 6%, #595959 12%, #666666 25%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+	background: -ms-linear-gradient(left, #4c4c4c 0%, #111111 0%, #000000 0%, #2c2c2c 1%, #474747 6%, #595959 12%, #666666 25%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+	background: linear-gradient(to right, #4c4c4c 0%, #111111 0%, #000000 0%, #2c2c2c 1%, #474747 6%, #595959 12%, #666666 25%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);	
+}
+
+.menu ul {
+	list-style-type: none; 
+	padding: 0; 
+	margin: 0;
+}
+
+.menu li {
+	display: inline-block;
+	float: left;
+	margin: .5%;
+}
+
+a:link {
+	color: #9933FF;
+	font-size: 2em;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #1F0A33;
+}
+
+a:hover {
+	color: #C785FF;
+}
+
+a:active {
+	color: #9933FF;
+}
+
+h1 {
+	font-size: 2.5em;
+	text-align: center;
+	margin-left: 5%;
+	color: #556C6C;
+}
+
+@media only screen and (max-width: 30em) {
+  header { font-size:80%;}
+  h1, p, a, li{font-size: 80%;}
+}
+
+@media only screen and (max-width: 40em) {
+  header { font-size:90%;}
+  h1, p, a, li{font-size: 90%;}
+}  
+     
+@media only screen and (max-width: 50em) {
+  header { font-size:100%;}
+  h1, p, a, li{font-size: 100%;}
+}
