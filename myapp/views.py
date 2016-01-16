@@ -19,7 +19,7 @@ def post_detail(request, slug):
     post = get_object_or_404(Post, slug=slug)
     return render(request, 'post_detail.html', {'post':post})
 
-    def add_comment_to_post(request, slug):
+def add_comment_to_post(request, slug):
 	post = get_object_or_404(Post, slug=slug)
 	if request.method == 'POST':
 		form = CommentForm(request.POST)
